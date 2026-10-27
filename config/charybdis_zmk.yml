@@ -1,6 +1,6 @@
 file_format: "1"
 id: charybdis
-name: Charybdis
+name: Chary
 type: shield
 url: https://github.com/Bastardkb/Charybdis/
 requires: [pro_micro]
