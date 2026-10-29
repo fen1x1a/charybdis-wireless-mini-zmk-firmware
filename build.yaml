@@ -24,19 +24,21 @@ include:
       # - focal
       # - graphite
 
-# ── Standard Dongle Firmwares ─────────────────────────────────────────────────
-  - name: dongle_standard_nano
-    board: nice_nano//zmk
-    shield:
-      - charybdis_left_dongle
-      - charybdis_right_dongle
-      - charybdis_dongle
+# ── Standard Dongle Firmwares (dongle = XIAO BLE, halves = nice!nano) ─────────
+  - name: dongle_standard_xiao
+    board: xiao_ble//zmk
     keymap:
       - qwerty
       - colemak_dh
       # - canary
       # - focal
       # - graphite
+    builds:
+      - shield: charybdis_left_dongle
+        board: nice_nano//zmk
+      - shield: charybdis_right_dongle
+        board: nice_nano//zmk
+      - shield: charybdis_dongle
 
 # ── Prospector Dongle (Display Screen) Firmwares ──────────────────────────
 

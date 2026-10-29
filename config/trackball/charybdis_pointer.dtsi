@@ -3,7 +3,7 @@
 
 &trackball_listener {
     /* base processor chain on all layers */
-    input-processors = <&zip_xy_scaler 2 3>;
+    input-processors = <&zip_xy_scaler 2 4>;
 
     /* layer-8 scroll override */
     scroller: scroller {
