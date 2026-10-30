@@ -487,15 +487,15 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(190, 200)" class="key keypos-26">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">CUT</text>
+<text x="0" y="0" class="key tap">&amp;cut</text>
 </g>
 <g transform="translate(266, 190)" class="key keypos-27">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">COPY</text>
+<text x="0" y="0" class="key tap">&amp;coppy</text>
 </g>
 <g transform="translate(342, 200)" class="key keypos-28">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
-<text x="0" y="0" class="key tap">PASTE</text>
+<text x="0" y="0" class="key tap">&amp;paste</text>
 </g>
 <g transform="translate(418, 200)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key trans"/>
@@ -984,9 +984,15 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(798, 124)" class="key keypos-19">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.75em">L</tspan><tspan x="0" dy="1.5em">CLK</tspan>
+</text>
 </g>
 <g transform="translate(874, 114)" class="key keypos-20">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.75em">R</tspan><tspan x="0" dy="1.5em">CLK</tspan>
+</text>
 </g>
 <g transform="translate(950, 124)" class="key keypos-21">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
