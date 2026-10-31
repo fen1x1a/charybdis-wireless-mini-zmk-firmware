@@ -11,6 +11,11 @@ include:
     board: nice_nano//zmk
     shield: settings_reset
 
+# Reset firmware for the XIAO BLE dongle
+  - name: settings_reset_xiao
+    board: xiao_ble//zmk
+    shield: settings_reset
+
 # ── Bluetooth (BT) Firmwares ─────────────────────────────────────────────────────────────
   - name: bt
     board: nice_nano//zmk
