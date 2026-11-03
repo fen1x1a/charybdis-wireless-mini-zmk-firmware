@@ -953,6 +953,7 @@ text.br  { font-family: "JetBrainsMono Nerd Font"; fill: var(--all-corner); font
 </g>
 <g transform="translate(114, 142)" class="key keypos-13">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
+<text x="0" y="0" class="key tap">LGUI</text>
 </g>
 <g transform="translate(190, 124)" class="key keypos-14">
 <rect rx="6" ry="6" x="-36" y="-36" width="72" height="72" class="key"/>
